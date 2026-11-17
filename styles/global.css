@@ -40,3 +40,35 @@ div.left_hand {
   border-left: none;
   border-radius: 0 var(--radius-base) var(--radius-base) 0;
 }
+
+.game_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.playboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 400px;
+  height: 400px;
+  border: var(--border-primary);
+  padding: var(--space-sm);
+  gap: var(--space-sm);
+  border-radius: var(--radius-base);
+}
+
+.playboard > div {
+  border: var(--border-primary);
+  border-radius: var(--radius-base);
+}
+
+.controls > button {
+  padding: var(--space-xs) var(--space-xl);
+  background-color: transparent;
+  border-radius: var(--radius-base);
+  border: var(--border-primary);
+  font-weight: var(--font-weight-primary);
+}
