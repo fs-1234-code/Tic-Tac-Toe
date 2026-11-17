@@ -72,3 +72,10 @@ div.left_hand {
   border: var(--border-primary);
   font-weight: var(--font-weight-primary);
 }
+
+footer {
+  padding: var(--space-xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text-color-secondary);
+}
